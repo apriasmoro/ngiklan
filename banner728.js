@@ -5,4 +5,4 @@ atOptions = {
 	'width' : 728,
 	'params' : {}
 };
-document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topcreativeformat.com/9f0de11e5fd48835de6964cc4939507c/invoke.js"></scr' + 'ipt>');
+document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://nastylayer.com/9f0de11e5fd48835de6964cc4939507c/invoke.js"></scr' + 'ipt>');
