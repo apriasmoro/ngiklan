@@ -260,18 +260,16 @@
 			};
 		};
 		str_template = await str_template.replace(/\$\{attachments-nick\}/g, data_attachments);
-		//--- inject data author
-		--------------------------------------------------------------------------------------
-			let data_authorName = "Anonyme";
+		//--- inject data author --------------------------------------------------------------------------------------
+		let data_authorName = "Anonyme";
 		if (data.data.author && data.data.author.name) {
 			data_authorName = data.data.author.name;
 		} else if (data.data.author && data.data.author.nick) {
 			data_authorName = data.data.author.nick;
 		};
 		str_template = await str_template.replace(/\$\{nick-ask\}/g, data_authorName);
-		//--- inject data category
-		---------------------------------------------------------------------------------------------------
-			let data_category = "Другие вопросы";
+		//--- inject data category ---------------------------------------------------------------------------------------------------
+		let data_category = "Другие вопросы";
 		if (data.data.subject && data.data.subject.name) {
 			data_category = data.data.subject.name;
 		};
